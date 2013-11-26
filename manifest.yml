@@ -1,0 +1,8 @@
+---
+applications:
+- name: s3-broker
+  memory: 128M
+  instances: 1
+  host: s3-broker
+  domain: 216.174.75.137.xip.io
+  path: .
