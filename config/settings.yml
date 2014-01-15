@@ -8,8 +8,8 @@ defaults: &defaults
 
   services:
   - id: cf-amazons3
-    name: cf-amazons3
-    description: Cloud Foundry Amazons3 Service
+    name: aws-s3
+    description: Amazon S3 
     tags: ['Amazons3', 'storage']
     max_buckets_per_node: 200
     metadata:
